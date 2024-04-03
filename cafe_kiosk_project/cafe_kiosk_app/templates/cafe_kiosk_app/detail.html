@@ -1,0 +1,6 @@
+<h1>{{ drink.drink_type }}</h1>
+<ul>
+{% for choice in choices %}
+    <li>{{ choice.detailed_drink_type }} - {{ choice.votes }} votes</li>
+{% endfor %}
+</ul>
